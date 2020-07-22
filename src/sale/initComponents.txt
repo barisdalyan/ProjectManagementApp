@@ -1,0 +1,338 @@
+ @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        jpBackground = new javax.swing.JPanel();
+        jpChoicePanel = new javax.swing.JPanel();
+        lblCustomer = new javax.swing.JLabel();
+        lblProject = new javax.swing.JLabel();
+        lblTimes = new javax.swing.JLabel();
+        cmbCustomer = new javax.swing.JComboBox<>();
+        cmbProject = new javax.swing.JComboBox<>();
+        tfTimes = new javax.swing.JTextField();
+        lblDate = new javax.swing.JLabel();
+        lblTimePeriod = new javax.swing.JLabel();
+        lblPrice = new javax.swing.JLabel();
+        dtSale = new com.toedter.calendar.JDateChooser();
+        radioDay = new javax.swing.JRadioButton();
+        radioMonth = new javax.swing.JRadioButton();
+        radioYear = new javax.swing.JRadioButton();
+        tfPrice = new javax.swing.JTextField();
+        lblCurrency = new javax.swing.JLabel();
+        lblWarning = new javax.swing.JLabel();
+        jSeparator = new javax.swing.JSeparator();
+        jpTitleAndButtons = new javax.swing.JPanel();
+        lblTitle = new javax.swing.JLabel();
+        btnSell = new javax.swing.JButton();
+        btnCancel = new javax.swing.JButton();
+        jpTable = new javax.swing.JPanel();
+        jScrollPane = new javax.swing.JScrollPane();
+        tblProjectSales = new javax.swing.JTable();
+        menuBar = new javax.swing.JMenuBar();
+        menu = new javax.swing.JMenu();
+        menuRefresh = new javax.swing.JMenuItem();
+        moveListCustomers = new javax.swing.JMenuItem();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Sell Project");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(SaleProject.class.getResource("/icon/jar.png"))
+        );
+        setLocation(new java.awt.Point(440, 130));
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
+
+        jpBackground.setBackground(new java.awt.Color(229, 231, 233));
+
+        jpChoicePanel.setBackground(new java.awt.Color(229, 231, 233));
+
+        lblCustomer.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        lblCustomer.setText("Customer:");
+
+        lblProject.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        lblProject.setText("Project:");
+
+        lblTimes.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        lblTimes.setText("Times: ");
+
+        cmbCustomer.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
+
+        cmbProject.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
+
+        tfTimes.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        tfTimes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        tfTimes.setMargin(new java.awt.Insets(4, 4, 4, 4));
+
+        lblDate.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        lblDate.setText("Date:");
+
+        lblTimePeriod.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        lblTimePeriod.setText("Time Period:");
+
+        lblPrice.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        lblPrice.setText("Price:");
+
+        dtSale.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        dtSale.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+
+        buttonGroup1.add(radioDay);
+        radioDay.setFont(new java.awt.Font("Century Gothic", 0, 10)); // NOI18N
+        radioDay.setText("Day");
+
+        buttonGroup1.add(radioMonth);
+        radioMonth.setFont(new java.awt.Font("Century Gothic", 0, 10)); // NOI18N
+        radioMonth.setText("Month");
+
+        buttonGroup1.add(radioYear);
+        radioYear.setFont(new java.awt.Font("Century Gothic", 0, 10)); // NOI18N
+        radioYear.setText("Year");
+
+        tfPrice.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        tfPrice.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        tfPrice.setMargin(new java.awt.Insets(4, 4, 4, 4));
+
+        lblCurrency.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
+        lblCurrency.setText("$");
+
+        lblWarning.setFont(new java.awt.Font("Century Gothic", 0, 10)); // NOI18N
+        lblWarning.setForeground(new java.awt.Color(102, 0, 0));
+
+        javax.swing.GroupLayout jpChoicePanelLayout = new javax.swing.GroupLayout(jpChoicePanel);
+        jpChoicePanel.setLayout(jpChoicePanelLayout);
+        jpChoicePanelLayout.setHorizontalGroup(
+            jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                .addContainerGap(15, Short.MAX_VALUE)
+                .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                        .addComponent(lblWarning, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                        .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                                .addComponent(lblProject, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(cmbProject, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                                .addComponent(lblCustomer, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(cmbCustomer, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                                .addComponent(lblTimes, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(tfTimes, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(40, 40, 40)
+                        .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblTimePeriod)
+                            .addComponent(lblDate)
+                            .addComponent(lblPrice))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                        .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                                .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                                        .addGap(3, 3, 3)
+                                        .addComponent(radioDay)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(radioMonth)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(radioYear))
+                                    .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                                        .addComponent(tfPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(lblCurrency, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpChoicePanelLayout.createSequentialGroup()
+                                .addComponent(dtSale, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(15, 15, 15))))))
+        );
+        jpChoicePanelLayout.setVerticalGroup(
+            jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpChoicePanelLayout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(dtSale, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(cmbCustomer, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lblCustomer)
+                        .addComponent(lblDate)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblProject)
+                    .addComponent(cmbProject, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblTimePeriod)
+                    .addComponent(radioDay, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(radioMonth, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(radioYear, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jpChoicePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblTimes)
+                    .addComponent(tfTimes, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPrice)
+                    .addComponent(tfPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblCurrency))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addComponent(lblWarning, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        jpTitleAndButtons.setBackground(new java.awt.Color(229, 231, 233));
+
+        lblTitle.setFont(new java.awt.Font("Century Gothic", 0, 16)); // NOI18N
+        lblTitle.setText(" Project Sale Table ");
+
+        btnSell.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
+        btnSell.setText("Sell");
+        btnSell.setFocusPainted(false);
+        btnSell.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSellActionPerformed(evt);
+            }
+        });
+
+        btnCancel.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
+        btnCancel.setText("Cancel Sale");
+        btnCancel.setFocusPainted(false);
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jpTitleAndButtonsLayout = new javax.swing.GroupLayout(jpTitleAndButtons);
+        jpTitleAndButtons.setLayout(jpTitleAndButtonsLayout);
+        jpTitleAndButtonsLayout.setHorizontalGroup(
+            jpTitleAndButtonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpTitleAndButtonsLayout.createSequentialGroup()
+                .addContainerGap(244, Short.MAX_VALUE)
+                .addComponent(lblTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(71, 71, 71)
+                .addComponent(btnSell, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnCancel)
+                .addGap(18, 18, 18))
+        );
+        jpTitleAndButtonsLayout.setVerticalGroup(
+            jpTitleAndButtonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpTitleAndButtonsLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(jpTitleAndButtonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSell, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblTitle)
+                    .addComponent(btnCancel, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        );
+
+        tblProjectSales.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
+        tblProjectSales.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Customer Name", "Sold Project", "Sale Date", "Support Time", "Price"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        tblProjectSales.getTableHeader().setReorderingAllowed(false);
+        tblProjectSales.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tblProjectSalesMouseClicked(evt);
+            }
+        });
+        jScrollPane.setViewportView(tblProjectSales);
+        if (tblProjectSales.getColumnModel().getColumnCount() > 0) {
+            tblProjectSales.getColumnModel().getColumn(0).setResizable(false);
+            tblProjectSales.getColumnModel().getColumn(1).setResizable(false);
+            tblProjectSales.getColumnModel().getColumn(2).setResizable(false);
+            tblProjectSales.getColumnModel().getColumn(3).setResizable(false);
+            tblProjectSales.getColumnModel().getColumn(4).setResizable(false);
+            tblProjectSales.getColumnModel().getColumn(5).setResizable(false);
+        }
+
+        javax.swing.GroupLayout jpTableLayout = new javax.swing.GroupLayout(jpTable);
+        jpTable.setLayout(jpTableLayout);
+        jpTableLayout.setHorizontalGroup(
+            jpTableLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane, javax.swing.GroupLayout.Alignment.TRAILING)
+        );
+        jpTableLayout.setVerticalGroup(
+            jpTableLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 319, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jpBackgroundLayout = new javax.swing.GroupLayout(jpBackground);
+        jpBackground.setLayout(jpBackgroundLayout);
+        jpBackgroundLayout.setHorizontalGroup(
+            jpBackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpBackgroundLayout.createSequentialGroup()
+                .addGroup(jpBackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jpTitleAndButtons, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jpBackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jpChoicePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jSeparator)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jpTable, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jpBackgroundLayout.setVerticalGroup(
+            jpBackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpBackgroundLayout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(jpChoicePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addComponent(jSeparator, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(5, 5, 5)
+                .addComponent(jpTitleAndButtons, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addComponent(jpTable, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        menuBar.setBorder(null);
+
+        menu.setText("Options");
+
+        menuRefresh.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
+        menuRefresh.setText("Refresh");
+        menuRefresh.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuRefreshActionPerformed(evt);
+            }
+        });
+        menu.add(menuRefresh);
+
+        moveListCustomers.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
+        moveListCustomers.setText("List Customers");
+        moveListCustomers.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                moveListCustomersActionPerformed(evt);
+            }
+        });
+        menu.add(moveListCustomers);
+
+        menuBar.add(menu);
+
+        setJMenuBar(menuBar);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jpBackground, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jpBackground, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
