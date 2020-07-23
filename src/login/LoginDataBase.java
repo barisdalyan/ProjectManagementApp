@@ -74,7 +74,7 @@ public class LoginDataBase extends javax.swing.JFrame {
         if (dbName.equals("") || userName.equals("") || password.equals("")) { // Check, did user fill all fields. 
             lblWarning.setText("*Fields can't be blank !");
         } else {
-            if (dbName.equals("SQL Server") && userName.equals("sadmin") && password.equals("1368")) {
+            if (dbName.equals("SQL Server") && userName.equals("sadmin") && password.equals("1368")) { // Your Ms Server username and password, this is why it needs to be changed. 
 
                 dbConnectiString; // Your DB link must be assigned here.
                 ListCustomers listCustomers = new ListCustomers(); // Log in and initialize the app.
