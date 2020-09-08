@@ -5,7 +5,7 @@ A simple Swing application that is equipped with Database infrastructure.
 
 ## What can ı do with this project?
 - You can perform adding, deleting, updating operations on customer registration table and sell a new project to your customers or cancel the sale.
-- If you have a lot of customer, you can filter them using search text field.
+- If you have a lot of customers, you can filter them using search text field.
 
 <img src="https://github.com/barisdalyan/ProjectManagementApp/blob/master/screenshot/list-customers-frame.png" alt="Error" width="550" >
 
@@ -18,7 +18,7 @@ A simple Swing application that is equipped with Database infrastructure.
 - _Ms Server JDBC Driver and other necessary files are [here.](https://github.com/barisdalyan/ProjectManagementApp/tree/master/dist/lib)_
 
 Except these annotations, you can modify this infrastructure as you wish.
-I would prefer to [**Netbeans IDE**](https://netbeans.apache.org/download/index.html).
+I would prefer [**Netbeans IDE**](https://netbeans.apache.org/download/index.html).
 
 ## Screenshot
 - [Login](https://github.com/barisdalyan/ProjectManagementApp/blob/master/screenshot/login-frame.png)
