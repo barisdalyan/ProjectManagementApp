@@ -12,7 +12,7 @@ A simple Swing application that is equipped with Database infrastructure.
 ## Annotations
 - _This project is developed with Java-11 OpenJDK, Swing Api and Ms SQL Server._
 - _Therefore, to be able to use the project you should set MS SQL Server and paste your DB link to corresponding line (79) in [LoginDataBase.java.](https://github.com/barisdalyan/ProjectManagementApp/blob/master/src/login/LoginDataBase.java)_ 
-- _See [this](https://github.com/barisdalyan/ProjectManagementApp/blob/master/screenshot/UML.png) for Database UML Diagram._
+- _See [this](https://github.com/barisdalyan/ProjectManagementApp/blob/master/screenshot/UML.png) for Database Diagram._
 - _It is important to add content of initComponents.txt to each .java file that in same directory, otherwise an unexpected error might occur._
 - _You need to change line (77) as well to your Ms SQL Server **username** and **password** otherwise you can't initialize this app._
 - _Ms Server JDBC Driver and other necessary files are [here.](https://github.com/barisdalyan/ProjectManagementApp/tree/master/dist/lib)_
